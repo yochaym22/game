@@ -53,3 +53,6 @@ TagManager:
   - name: window3
     uniqueID: 3672060031
     locked: 0
+  - name: window4
+    uniqueID: 3260064983
+    locked: 0
