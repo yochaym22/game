@@ -1,7 +1,25 @@
 fileFormatVersion: 2
-guid: 3a84b6fc79d70ee4aaef9404d0ff237a
+guid: de88a9e09d71ce14fbfbb51821e86537
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -9182845442217338255
+    second: "\u05DB\u05DC\u05D9 \u05DC\u05E1\u05DB\u05D5\u05DD_0"
+  - first:
+      213: -7978229286280392981
+    second: "\u05DB\u05DC\u05D9 \u05DC\u05E1\u05DB\u05D5\u05DD_1"
+  - first:
+      213: 6208044369197522263
+    second: "\u05DB\u05DC\u05D9 \u05DC\u05E1\u05DB\u05D5\u05DD_2"
+  - first:
+      213: 4254090438542656389
+    second: "\u05DB\u05DC\u05D9 \u05DC\u05E1\u05DB\u05D5\u05DD_3"
+  - first:
+      213: 7813366340417532243
+    second: "\u05DB\u05DC\u05D9 \u05DC\u05E1\u05DB\u05D5\u05DD_4"
+  - first:
+      213: -5902486722632343533
+    second: "\u05DB\u05DC\u05D9 \u05DC\u05E1\u05DB\u05D5\u05DD_5"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,7 +115,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "\u05DB\u05DC\u05D9 \u05DC\u05E1\u05DB\u05D5\u05DD_1"
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 89
+        width: 98
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee83ae0cb2a74190800000000000000
+      internalID: -7978229286280392981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u05DB\u05DC\u05D9 \u05DC\u05E1\u05DB\u05D5\u05DD_4"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351b4942a47ae6c60800000000000000
+      internalID: 7813366340417532243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u05DB\u05DC\u05D9 \u05DC\u05E1\u05DB\u05D5\u05DD_5"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 33
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3102a063997261ea0800000000000000
+      internalID: -5902486722632343533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
