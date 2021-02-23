@@ -175,14 +175,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101913589}
-  m_LocalRotation: {x: 0.030258356, y: -0.008151228, z: -0.9370634, w: 0.34775034}
+  m_LocalRotation: {x: -0.054460984, y: 0.029664092, z: -0.9071461, w: 0.41622123}
   m_LocalPosition: {x: -0.050219074, y: -0.20909935, z: -0.0045166304}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 683213487}
   m_Father: {fileID: 1832520550}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0.33, y: -3.5760002, z: -499.29}
+  m_LocalEulerAnglesHint: {x: 0.48600003, y: 7.0950003, z: -490.67603}
 --- !u!1 &226228224
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,7 +738,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616881574}
   m_LocalRotation: {x: -0.9860217, y: 0.009249984, z: 0.006990391, w: -0.16621302}
-  m_LocalPosition: {x: 2.0012703, y: 2.5048032, z: -1.0668682}
+  m_LocalPosition: {x: 1.8155811, y: 2.54752, z: -1.0817883}
   m_LocalScale: {x: 0.42861447, y: 0.42861447, z: 0.42861447}
   m_Children:
   - {fileID: 1142093468}
@@ -1115,6 +1115,7 @@ GameObject:
   - component: {fileID: 854070697}
   - component: {fileID: 854070696}
   - component: {fileID: 854070695}
+  - component: {fileID: 854070699}
   m_Layer: 0
   m_Name: single_char
   m_TagString: Untagged
@@ -1174,8 +1175,8 @@ MonoBehaviour:
   - {fileID: 1832520550}
   - {fileID: 394302088}
   m_Bounds:
-    m_Center: {x: 0.5045232, y: 3.3068085, z: -1.4280872}
-    m_Extent: {x: 0.8732183, y: 0.7810402, z: 0.35340214}
+    m_Center: {x: 1.8511927, y: 2.5786958, z: -1.1195706}
+    m_Extent: {x: 0.7553436, y: 0.3292954, z: 0.14647046}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!212 &854070697
@@ -1243,6 +1244,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45.148003}
+--- !u!114 &854070699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854070694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd510b29743cfc44fa3298fad512dd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clock_anim: {fileID: 1775636111}
+  player_anim: {fileID: 854070695}
+  transform: {fileID: 854070698}
 --- !u!1 &962717057
 GameObject:
   m_ObjectHideFlags: 0
