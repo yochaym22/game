@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 737088386}
   - component: {fileID: 737088385}
   m_Layer: 0
-  m_Name: "\u05D0\u05D5\u05D8\u05D5\u05D1\u05D5\u05E1_1"
+  m_Name: bus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -379,7 +379,7 @@ GameObject:
   - component: {fileID: 1194065071}
   - component: {fileID: 1194065073}
   m_Layer: 0
-  m_Name: "\u05DB\u05E8\u05D9\u05DA"
+  m_Name: Sandwich
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -480,7 +480,7 @@ GameObject:
   - component: {fileID: 1225399750}
   - component: {fileID: 1225399752}
   m_Layer: 0
-  m_Name: "\u05E1\u05E4\u05E8\u05D9\u05DD_8"
+  m_Name: books
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 1359910302}
   - component: {fileID: 1359910301}
   m_Layer: 0
-  m_Name: "\u05DB\u05DC\u05D1 \u05D1\u05D1\u05D9\u05EA"
+  m_Name: home_dog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -662,7 +662,7 @@ GameObject:
   - component: {fileID: 1468493573}
   - component: {fileID: 1468493572}
   m_Layer: 0
-  m_Name: "\u05E1\u05DC\u05D5\u05DF_2"
+  m_Name: livingroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -745,7 +745,7 @@ GameObject:
   - component: {fileID: 1569412145}
   - component: {fileID: 1569412147}
   m_Layer: 0
-  m_Name: "\u05DE\u05E9\u05E7\u05E4\u05D9\u05DD_8"
+  m_Name: glasses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -847,7 +847,7 @@ GameObject:
   - component: {fileID: 2007617446}
   - component: {fileID: 2007617448}
   m_Layer: 0
-  m_Name: "\u05EA\u05D9\u05E7\u05D9\u05DD_5"
+  m_Name: bag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
