@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 296460253}
   - component: {fileID: 296460252}
   m_Layer: 0
-  m_Name: "\u05DE\u05E9\u05D7\u05E7\u05D9\u05DD_0"
+  m_Name: game 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -612,7 +612,7 @@ GameObject:
   - component: {fileID: 536233483}
   - component: {fileID: 536233482}
   m_Layer: 0
-  m_Name: "\u05EA\u05DE\u05D5\u05E0\u05EA \u05D7\u05DC\u05DC"
+  m_Name: space_pic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -654,8 +654,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 705900265
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e29ed30ea737c164384ca5cb5d9b09fb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -789,7 +789,7 @@ GameObject:
   - component: {fileID: 687025017}
   - component: {fileID: 687025016}
   m_Layer: 0
-  m_Name: "\u05E4\u05DC\u05D0\u05E4\u05D5\u05DF"
+  m_Name: phone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -951,7 +951,7 @@ GameObject:
   - component: {fileID: 798967299}
   - component: {fileID: 798967298}
   m_Layer: 0
-  m_Name: "\u05E1\u05DC\u05D5\u05DF_2"
+  m_Name: chair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1174,8 +1174,8 @@ MonoBehaviour:
   - {fileID: 1832520550}
   - {fileID: 394302088}
   m_Bounds:
-    m_Center: {x: 1.5153823, y: 3.0860128, z: -1.287178}
-    m_Extent: {x: 0.7964768, y: 0.4177761, z: 0.30035114}
+    m_Center: {x: 0.5045232, y: 3.3068085, z: -1.4280872}
+    m_Extent: {x: 0.8732183, y: 0.7810402, z: 0.35340214}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!212 &854070697
@@ -1735,7 +1735,7 @@ GameObject:
   - component: {fileID: 1502182869}
   - component: {fileID: 1502182868}
   m_Layer: 0
-  m_Name: "\u05DB\u05D3\u05D5\u05E8"
+  m_Name: ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2301,7 +2301,7 @@ GameObject:
   - component: {fileID: 2059214785}
   - component: {fileID: 2059214784}
   m_Layer: 0
-  m_Name: "\u05DE\u05E9\u05D7\u05E7\u05D9\u05DD_2"
+  m_Name: game3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2414,7 +2414,7 @@ GameObject:
   - component: {fileID: 2081693745}
   - component: {fileID: 2081693744}
   m_Layer: 0
-  m_Name: "\u05DE\u05E9\u05D7\u05E7\u05D9\u05DD_1"
+  m_Name: game2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
