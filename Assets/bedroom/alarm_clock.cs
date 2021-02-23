@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class alarm_clock : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void clockVisibilty ()
     {
-        
+      Renderer rend = gameObject.GetComponent<Renderer>();
+      if (rend.enabled)
+        rend.enabled = false;
+      else
+        rend.enabled = true;
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
