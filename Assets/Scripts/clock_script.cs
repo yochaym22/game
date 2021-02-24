@@ -10,18 +10,22 @@ public class clock_script : MonoBehaviour
 
     void Start()
     {
-     
        animator.SetBool("is_ringing", true);
-      
-
     }
-  
+    
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        
+        if ((Input.GetMouseButtonDown(0))&&(!(animator.GetBool("is_ringing"))))
         {
-            animator.SetBool("is_ringing", false);
+            Debug.Log("closet");
+
         }
     }
+    private void OnMouseDown()
+    {
+        animator.SetBool("is_ringing", false);
+    }
+
 }
