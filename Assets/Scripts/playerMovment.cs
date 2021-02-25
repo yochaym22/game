@@ -4,21 +4,30 @@ using UnityEngine;
 
 public class playerMovment : MonoBehaviour
 {
-    public Rigidbody2D playerRigidBody;
-    public float runSpeed = 0f;
+    Rigidbody2D playerRigidBody;
+    [SerializeField] float runSpeed = 0f;
+    public Animator clock_animator;
+    public Animator player_animator;
+    Vector2 position;
 
+    private void Awake()
+    {
+        playerRigidBody = GetComponent<Rigidbody2D>();
+    }
     // Start is called before the first frame update
     void Start()
     {
-        playerRigidBody = GetComponent < Rigidbody2D>();
+        
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(playerRigidBody !=null)
+        
+
+        if (playerRigidBody !=null)
         {
-            ApplayInput();
+            StartCoroutine(get_up_func());
         }
         else
         {
@@ -30,12 +39,25 @@ public class playerMovment : MonoBehaviour
         float xInput = Input.GetAxis("Horizontal");
         float yInput = Input.GetAxis("Vertical");
         float xForce = xInput * runSpeed * Time.deltaTime;
+        Vector2 force = new Vector2(xForce, playerRigidBody.velocity.y);
+        playerRigidBody.velocity = force;
+        player_animator.SetFloat("speed", Mathf.Abs(playerRigidBody.velocity.x));
 
-        Vector2 force = new Vector2(xForce, 0);
-        playerRigidBody.AddForce(force);
-        Debug.Log("xforce " + xForce);
-       // Debug.Log("velocity " + playerRigidBody.velocity);
-        
+
+
     }
 
+    IEnumerator get_up_func()
+    {
+        if (!(clock_animator.GetBool("is_ringing"))&&(!(player_animator.GetBool("get_up_done"))))
+        {
+            player_animator.SetBool("getting_up", true);
+            yield return new WaitForSeconds(1f);
+            position = playerRigidBody.position;
+            player_animator.SetBool("get_up_done", true);
+            player_animator.SetBool("getting_up", false);
+
+        }
+        ApplayInput();
+    }
 }

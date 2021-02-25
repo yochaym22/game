@@ -17,11 +17,6 @@ public class clock_script : MonoBehaviour
     void Update()
     {
         
-        if ((Input.GetMouseButtonDown(0))&&(!(animator.GetBool("is_ringing"))))
-        {
-            Debug.Log("closet");
-
-        }
     }
     private void OnMouseDown()
     {
