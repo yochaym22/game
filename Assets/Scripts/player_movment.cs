@@ -2,42 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playerMovment : MonoBehaviour
+public class player_movment : MonoBehaviour
 {
     Rigidbody2D playerRigidBody;
     [SerializeField] float runSpeed = 0f;
-    public Animator clock_animator;
     public Animator player_animator;
-    Animation [] animations;
     Vector2 position;
 
     private void Awake()
     {
         playerRigidBody = GetComponent<Rigidbody2D>();
-
     }
     // Start is called before the first frame update
     void Start()
     {
-        animations = GameObject.FindObjectsOfType<Animation>();
-        foreach(Animation anim in animations )
-        {
-            if(anim.name =="player_get_up")
-            {
-                Debug.Log(anim.localBounds.center.x);
-            }
-        }    
 
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        
 
-        if (playerRigidBody !=null)
+
+        if (playerRigidBody != null)
         {
-            StartCoroutine(get_up_func());
+            ApplayInput();
         }
         else
         {
@@ -57,21 +46,5 @@ public class playerMovment : MonoBehaviour
 
     }
 
-    IEnumerator get_up_func()
-    {
-        if (!(clock_animator.GetBool("is_ringing"))&&(!(player_animator.GetBool("get_up_done"))))
-        {
-            
 
-            player_animator.SetBool("getting_up", true);
-            yield return new WaitForSeconds(3f);
-
-
-            position = playerRigidBody.position;
-            player_animator.SetBool("get_up_done", true);
-            player_animator.SetBool("getting_up", false);
-
-        }
-        ApplayInput();
-    }
 }
