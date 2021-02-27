@@ -18,15 +18,7 @@ public class playerMovment : MonoBehaviour
     }
     // Start is called before the first frame update
     void Start()
-    {
-        animations = GameObject.FindObjectsOfType<Animation>();
-        foreach(Animation anim in animations )
-        {
-            if(anim.name =="player_get_up")
-            {
-                Debug.Log(anim.localBounds.center.x);
-            }
-        }    
+    {    
 
     }
 
@@ -66,7 +58,7 @@ public class playerMovment : MonoBehaviour
 
 
                 player_animator.SetBool("getting_up", true);
-                yield return new WaitForSeconds(2.7f);
+                yield return new WaitForSeconds(2.5f);
                 player_animator.SetBool("getting_up", false);
                 player_animator.SetBool("get_up_done", true);
                 playerRigidBody.position = new Vector2(2f, -2.5f);
