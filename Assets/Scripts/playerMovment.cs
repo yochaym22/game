@@ -59,19 +59,24 @@ public class playerMovment : MonoBehaviour
 
     IEnumerator get_up_func()
     {
-        if (!(clock_animator.GetBool("is_ringing"))&&(!(player_animator.GetBool("get_up_done"))))
+        if(clock_animator != null)
         {
-            
-
-            player_animator.SetBool("getting_up", true);
-            yield return new WaitForSeconds(3f);
+            if (!(clock_animator.GetBool("is_ringing")) && (!(player_animator.GetBool("get_up_done"))))
+            {
 
 
-            position = playerRigidBody.position;
-            player_animator.SetBool("get_up_done", true);
-            player_animator.SetBool("getting_up", false);
+                player_animator.SetBool("getting_up", true);
+                yield return new WaitForSeconds(2.7f);
+                player_animator.SetBool("getting_up", false);
+                player_animator.SetBool("get_up_done", true);
+                playerRigidBody.position = new Vector2(2f, -2.5f);
+                playerRigidBody.rotation = 0f;
 
+            }
         }
-        ApplayInput();
+        if (player_animator.GetBool("get_up_done"))
+        {
+            ApplayInput();
+        }
     }
 }
