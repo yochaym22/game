@@ -6,7 +6,7 @@ public class NewBehaviourScript : MonoBehaviour
 {
     public Animator glasses;
     public Animator book;
-    public Transform sandwich;
+    public Animator sandwich = false;
     // Start is called before the first frame update
     void Start()
     {
