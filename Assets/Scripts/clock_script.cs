@@ -5,22 +5,24 @@ using UnityEngine;
 public class clock_script : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Animator animator;
+    Animator animator;
 
 
     void Start()
     {
-       animator.SetBool("is_ringing", true);
+        animator = GetComponent<Animator>();
+        animator.SetBool("is_ringing", true);
     }
-    
+
     // Update is called once per frame
     void Update()
     {
-        
     }
-    private void OnMouseDown()
+    void OnMouseDown()
     {
+        Debug.Log("imhere");
         animator.SetBool("is_ringing", false);
+        Debug.Log(animator.GetBool("is_ringing"));
     }
 
 }
