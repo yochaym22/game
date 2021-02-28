@@ -11,6 +11,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: Active_food
     m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: food_packed
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 31887283456993376}
   m_Solo: 0
@@ -63,6 +66,12 @@ AnimatorController:
   m_AnimatorParameters:
   - m_Name: Active_food
     m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: food_packed
+    m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0

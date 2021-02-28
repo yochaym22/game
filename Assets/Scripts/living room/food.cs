@@ -9,6 +9,7 @@ public class food : MonoBehaviour
     void OnMouseDown()
     {
         anim.SetTrigger("Active_food");
+        anim.SetBool("food_packed", true);
 
     }
     void Start()

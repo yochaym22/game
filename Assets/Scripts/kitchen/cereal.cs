@@ -9,6 +9,7 @@ public class cereal : MonoBehaviour
     void OnMouseDown()
     {
         anim.SetTrigger("active_cereal");
+        anim.SetBool("cereal_on_table", true);
 
     }
     void Start()

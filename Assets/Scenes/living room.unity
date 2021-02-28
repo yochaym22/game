@@ -363,7 +363,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1194065070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.0860007, y: -0.21, z: 0}
+  m_LocalPosition: {x: -3.0860007, y: -0.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -492,7 +492,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1225399749}
   m_LocalRotation: {x: -0.22916196, y: -0.16094957, z: 0.0032440647, w: -0.9599842}
-  m_LocalPosition: {x: -0.97, y: -0.04, z: 0.02}
+  m_LocalPosition: {x: -0.82, y: -0.19, z: -0.12}
   m_LocalScale: {x: 1.2256092, y: 0.9472713, z: 1.2256092}
   m_Children: []
   m_Father: {fileID: 0}
@@ -785,7 +785,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1569412144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.36, y: -0.2, z: 0}
+  m_LocalPosition: {x: 1.41, y: -0.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -845,8 +845,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1778991497}
   - component: {fileID: 1778991496}
-  - component: {fileID: 1778991495}
   - component: {fileID: 1778991494}
+  - component: {fileID: 1778991495}
   m_Layer: 0
   m_Name: arrow_2
   m_TagString: Untagged
@@ -867,32 +867,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevelName: outside
---- !u!61 &1778991495
-BoxCollider2D:
+  playerAnimator: {fileID: 0}
+  bowl: {fileID: 0}
+  spone: {fileID: 0}
+  cereal: {fileID: 0}
+  glasses: {fileID: 1569412147}
+  food: {fileID: 1194065073}
+  book: {fileID: 1225399752}
+--- !u!65 &1778991495
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778991493}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.71, y: 1.35}
-    newSize: {x: 2.71, y: 1.35}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.71, y: 1.35}
-  m_EdgeRadius: 0
+  m_Size: {x: 2.71, y: 1.35, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1778991496
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -952,7 +946,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778991493}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.46, y: 3.93, z: 0}
+  m_LocalPosition: {x: -7.85, y: 3.76, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

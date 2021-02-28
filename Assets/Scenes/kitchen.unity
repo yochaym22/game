@@ -218,12 +218,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevelName: living room
-  local_scene:
-    m_Handle: 0
   playerAnimator: {fileID: 0}
-  bowl: {fileID: 0}
-  spone: {fileID: 0}
-  cereal: {fileID: 0}
+  bowl: {fileID: 1496524154}
+  spone: {fileID: 1617030966}
+  cereal: {fileID: 1079770593}
+  glasses: {fileID: 0}
+  food: {fileID: 0}
+  book: {fileID: 0}
 --- !u!65 &319697453
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -290,7 +291,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.759965
+  orthographic size: 6.8359194
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1520,8 +1521,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1138924335
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8edd019b0da31ca4f9aefab2cf820fb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1542,8 +1543,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879664022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.66, y: -2.97, z: 0}
-  m_LocalScale: {x: 2.4017818, y: 2.4003644, z: 3.1232}
+  m_LocalPosition: {x: -4.79, y: -3.27, z: 0}
+  m_LocalScale: {x: 2.504338, y: 2.50286, z: 3.2565608}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -1604,8 +1605,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 705900265
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: -2027069995772414244, guid: d920a964f6b429f40b96a025d2266497,
     type: 3}
@@ -1736,8 +1737,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1138924335
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4047f3f6dd9ebbc419eb3ee3a271d738, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2388,8 +2389,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.20805125, y: 0.34474632, z: 0.2}
-  m_Center: {x: 1.8670944, y: 0.15652646, z: 0}
+  m_Size: {x: 0.3538244, y: 0.22336234, z: 0.2}
+  m_Center: {x: 1.7942079, y: 0.09583449, z: 0}
 --- !u!212 &1917693632
 SpriteRenderer:
   m_ObjectHideFlags: 0

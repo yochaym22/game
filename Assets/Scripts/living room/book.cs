@@ -8,6 +8,8 @@ public class book : MonoBehaviour
     void OnMouseDown()
     {
         anim.SetTrigger("active_book");
+        anim.SetBool("book_packed", true);
+
 
     }
     void Start()

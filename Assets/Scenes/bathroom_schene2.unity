@@ -281,7 +281,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632861902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.553188, y: 4.1386375, z: 0}
+  m_LocalPosition: {x: -11.553188, y: 4.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -300,6 +300,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevelName: kitchen
+  playerAnimator: {fileID: 1404827758}
+  bowl: {fileID: 0}
+  spone: {fileID: 0}
+  cereal: {fileID: 0}
+  glasses: {fileID: 0}
+  food: {fileID: 0}
+  book: {fileID: 0}
 --- !u!65 &632861906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -584,8 +591,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818682247}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.02, y: -0.52, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.13, y: -1.39, z: 0}
+  m_LocalScale: {x: 0.64307, y: 0.64307, z: 0.64307}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1

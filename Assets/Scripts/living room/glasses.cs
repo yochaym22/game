@@ -9,6 +9,7 @@ public class glasses : MonoBehaviour
    void OnMouseDown()
     {
         anim.SetTrigger("active_glasses");
+        anim.SetBool("glasses_packed", true);
 
     }
     void Start()

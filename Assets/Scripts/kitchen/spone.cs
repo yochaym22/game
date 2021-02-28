@@ -9,6 +9,7 @@ public class spone : MonoBehaviour
     void OnMouseDown()
     {
         anim.SetTrigger("active_spone");
+        anim.SetBool("spone_on_table", true);
 
     }
     void Start()
