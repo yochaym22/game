@@ -6,11 +6,11 @@ using UnityEngine;
 public class cloth_handler : MonoBehaviour
 {
     public SpriteRenderer open_closet;
-    public SpriteRenderer closed_closet;
+    SpriteRenderer closed_closet;
     // Start is called before the first frame update
     void Start()
     {
-        
+        closed_closet = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame

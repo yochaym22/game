@@ -1,7 +1,37 @@
 fileFormatVersion: 2
-guid: 90c015eddf79d114c9a007e79a1d4ba7
+guid: 836e2d29b600ba94280067b1b8221475
 ScriptedImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3201842766679494986
+    second: yellow_shirt_0
+  - first:
+      213: -4440262438261173343
+    second: yellow_shirt_1
+  - first:
+      213: 7886228037283326279
+    second: yellow_shirt_2
+  - first:
+      213: -1437442903452455501
+    second: yellow_shirt_3
+  - first:
+      213: 7121450767625982486
+    second: yellow_shirt_4
+  - first:
+      213: 5756099735416596893
+    second: yellow_shirt_5
+  - first:
+      213: -8567356256685227244
+    second: yellow_shirt_6
+  - first:
+      213: -3909254340962130831
+    second: yellow_shirt_7
+  - first:
+      213: 5192477440793306556
+    second: yellow_shirt_8
+  - first:
+      213: 8098831418384938361
+    second: yellow_shirt_9
   externalObjects: {}
   serializedVersion: 2
   userData: 
@@ -94,11 +124,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 177
-      width: 171
-      height: 146
-    spriteID: 2261d4afbdf451d49a8f6e28c2b8f0de
+      x: 2
+      y: 30
+      width: 56
+      height: 107
+    spriteID: 017ebd1f22c2bd24881cb637888e0b45
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +138,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -814, y: -652}
+    uvTransform: {x: -810, y: -830}
   - name: body
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -116,11 +146,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
-      width: 167
-      height: 165
-    spriteID: 81ec106a6bfc35b44b121af64ede1c5a
+      x: 15
+      y: 186
+      width: 152
+      height: 159
+    spriteID: d30faa18e8e69b44b944729b4f430fb2
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,7 +160,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -821, y: -820}
+    uvTransform: {x: -821, y: -641}
   - name: right_shoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -138,11 +168,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 179
-      y: 4
-      width: 40
+      x: 4
+      y: 368
+      width: 44
       height: 98
-    spriteID: a55673b2b040a7c42ae1eef5a99d97c6
+    spriteID: 68c2ac6f0dd2ec14ba3b9480dd3c03bd
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -152,7 +182,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -804, y: -871}
+    uvTransform: {x: -979, y: -507}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -176,30 +206,30 @@ ScriptedImporter:
     spriteName: lefr_shoulder
     isGroup: 0
     parentIndex: -1
-    spriteID: 2261d4afbdf451d49a8f6e28c2b8f0de
+    spriteID: 017ebd1f22c2bd24881cb637888e0b45
     layerID: 32
-    mosaicPosition: {x: 4, y: 177}
+    mosaicPosition: {x: 4, y: 4}
   - name: body
     spriteName: body
     isGroup: 0
     parentIndex: -1
-    spriteID: 81ec106a6bfc35b44b121af64ede1c5a
+    spriteID: d30faa18e8e69b44b944729b4f430fb2
     layerID: 33
-    mosaicPosition: {x: 4, y: 4}
+    mosaicPosition: {x: 4, y: 168}
   - name: right_shoulder
     spriteName: right_shoulder
     isGroup: 0
     parentIndex: -1
-    spriteID: a55673b2b040a7c42ae1eef5a99d97c6
+    spriteID: 68c2ac6f0dd2ec14ba3b9480dd3c03bd
     layerID: 34
-    mosaicPosition: {x: 179, y: 4}
+    mosaicPosition: {x: 4, y: 368}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: red_shirt Texture
-  prefabAssetName: red_shirt Prefab
-  spriteLibAssetName: red_shirt Sprite Lib
+  textureAssetName: yellow_shirt Texture
+  prefabAssetName: yellow_shirt Prefab
+  spriteLibAssetName: yellow_shirt Sprite Lib
   secondarySpriteTextures: []

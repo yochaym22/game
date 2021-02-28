@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 836e2d29b600ba94280067b1b8221475
+guid: 90c015eddf79d114c9a007e79a1d4ba7
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -91,14 +91,14 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0, y: 0, z: 1, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
-      width: 225
-      height: 156
-    spriteID: 017ebd1f22c2bd24881cb637888e0b45
+      x: 7
+      y: 218
+      width: 50
+      height: 95
+    spriteID: 01b2317d03fcd05429173df917e5aeda
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +108,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -810, y: -830}
+    uvTransform: {x: -814, y: -652}
   - name: body
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -117,10 +117,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 168
-      width: 173
-      height: 192
-    spriteID: d30faa18e8e69b44b944729b4f430fb2
+      y: 4
+      width: 167
+      height: 165
+    spriteID: af30d57d2edcad9439e30cf471dcc437
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,7 +130,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -821, y: -641}
+    uvTransform: {x: -821, y: -820}
   - name: right_shoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -138,11 +138,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 368
-      width: 44
+      x: 179
+      y: 4
+      width: 40
       height: 98
-    spriteID: 68c2ac6f0dd2ec14ba3b9480dd3c03bd
+    spriteID: 24b8810eeb75cb244be0cd9c826692aa
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -152,7 +152,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -979, y: -507}
+    uvTransform: {x: -804, y: -871}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -176,30 +176,30 @@ ScriptedImporter:
     spriteName: lefr_shoulder
     isGroup: 0
     parentIndex: -1
-    spriteID: 017ebd1f22c2bd24881cb637888e0b45
+    spriteID: 01b2317d03fcd05429173df917e5aeda
     layerID: 32
-    mosaicPosition: {x: 4, y: 4}
+    mosaicPosition: {x: 4, y: 177}
   - name: body
     spriteName: body
     isGroup: 0
     parentIndex: -1
-    spriteID: d30faa18e8e69b44b944729b4f430fb2
+    spriteID: af30d57d2edcad9439e30cf471dcc437
     layerID: 33
-    mosaicPosition: {x: 4, y: 168}
+    mosaicPosition: {x: 4, y: 4}
   - name: right_shoulder
     spriteName: right_shoulder
     isGroup: 0
     parentIndex: -1
-    spriteID: 68c2ac6f0dd2ec14ba3b9480dd3c03bd
+    spriteID: 24b8810eeb75cb244be0cd9c826692aa
     layerID: 34
-    mosaicPosition: {x: 4, y: 368}
+    mosaicPosition: {x: 179, y: 4}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: yellow_shirt Texture
-  prefabAssetName: yellow_shirt Prefab
-  spriteLibAssetName: yellow_shirt Sprite Lib
+  textureAssetName: red_shirt Texture
+  prefabAssetName: red_shirt Prefab
+  spriteLibAssetName: red_shirt Sprite Lib
   secondarySpriteTextures: []
