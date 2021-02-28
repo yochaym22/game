@@ -23,8 +23,14 @@ public class bus_moving : MonoBehaviour
         {
             anim.SetTrigger("Active");
             player.SetActive(false);
-            SceneManager.LoadScene(nextLevelName);
-
         }
+        StartCoroutine(load_end());
+    }
+    IEnumerator load_end()
+    {
+
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(nextLevelName);
+
     }
 }

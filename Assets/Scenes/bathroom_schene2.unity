@@ -300,6 +300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevelName: kitchen
+<<<<<<< HEAD
   playerAnimator: {fileID: 1404827758}
   bowl: {fileID: 0}
   spone: {fileID: 0}
@@ -307,6 +308,14 @@ MonoBehaviour:
   glasses: {fileID: 0}
   food: {fileID: 0}
   book: {fileID: 0}
+=======
+  local_scene:
+    m_Handle: 0
+  playerAnimator: {fileID: 0}
+  bowl: {fileID: 0}
+  spone: {fileID: 0}
+  cereal: {fileID: 0}
+>>>>>>> fa9989029e8f947734a48c5e06c6f4e59519336a
 --- !u!65 &632861906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -401,9 +410,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &674847752 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -7529831275208470189, guid: cacd1b152580ed24a8c00ec140b4ee8f,
+--- !u!1 &674847751 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2555609056780550856, guid: cacd1b152580ed24a8c00ec140b4ee8f,
     type: 3}
   m_PrefabInstance: {fileID: 1404827753}
   m_PrefabAsset: {fileID: 0}
@@ -1905,13 +1914,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551871754}
-  m_LocalRotation: {x: 0.013838205, y: -0.002182236, z: 0.29640016, w: -0.9549611}
-  m_LocalPosition: {x: 0.09, y: 0, z: -0.28}
-  m_LocalScale: {x: 0.15169398, y: 0.15169398, z: 0.15169396}
+  m_LocalRotation: {x: -0.0035932693, y: 0.014511947, z: -0.041566424, w: 0.99902385}
+  m_LocalPosition: {x: 0.83, y: 0.55, z: -0.020841394}
+  m_LocalScale: {x: 0.7668296, y: 0.76682955, z: 0.76682943}
   m_Children: []
-  m_Father: {fileID: 674847752}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -1.44, y: 0.70900005, z: -34.495003}
+  m_Father: {fileID: 1735518835}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.342, y: 1.6790001, z: -4.7700005}
 --- !u!114 &1551871756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1921,9 +1930,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1551871754}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6615d3ffcff5ad54195c2999d163ad4a, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ca5ddb56435f8343a35a02bb7959fab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playAnimator: {fileID: 1404827758}
+  playerHand: {fileID: 674847751}
+  brush_positon: {x: 0.09, y: 0, z: -0.28}
+  brush_roation: {x: -1.44, y: 0.7090001, z: -34.495}
 --- !u!61 &1551871757
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2012,6 +2025,7 @@ GameObject:
   - component: {fileID: 1702416919}
   - component: {fileID: 1702416921}
   - component: {fileID: 1702416920}
+  - component: {fileID: 1702416922}
   m_Layer: 0
   m_Name: red_brush
   m_TagString: Untagged
@@ -2110,6 +2124,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1702416922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702416918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca5ddb56435f8343a35a02bb7959fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playAnimator: {fileID: 1404827758}
+  playerHand: {fileID: 674847751}
+  brush_positon: {x: 0.09, y: 0, z: -0.28}
+  brush_roation: {x: -1.44, y: 0.7090001, z: -34.495}
 --- !u!1 &1735518833
 GameObject:
   m_ObjectHideFlags: 0
@@ -2189,6 +2219,7 @@ Transform:
   m_LocalScale: {x: 0.22732018, y: 0.22732018, z: 0.22732018}
   m_Children:
   - {fileID: 1702416919}
+  - {fileID: 1551871755}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
