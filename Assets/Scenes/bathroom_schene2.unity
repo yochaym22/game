@@ -300,7 +300,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevelName: kitchen
-<<<<<<< HEAD
   playerAnimator: {fileID: 1404827758}
   bowl: {fileID: 0}
   spone: {fileID: 0}
@@ -308,14 +307,6 @@ MonoBehaviour:
   glasses: {fileID: 0}
   food: {fileID: 0}
   book: {fileID: 0}
-=======
-  local_scene:
-    m_Handle: 0
-  playerAnimator: {fileID: 0}
-  bowl: {fileID: 0}
-  spone: {fileID: 0}
-  cereal: {fileID: 0}
->>>>>>> fa9989029e8f947734a48c5e06c6f4e59519336a
 --- !u!65 &632861906
 BoxCollider:
   m_ObjectHideFlags: 0
