@@ -14,7 +14,6 @@ public class cloth_changer : MonoBehaviour
     Sprite[] yellowShirt;
     Sprite[] blackPants;
     Sprite[] jeansPants;
-    Sprite[] hat;
 
      
     void Start()
@@ -25,7 +24,6 @@ public class cloth_changer : MonoBehaviour
         yellowShirt = Resources.LoadAll<Sprite>("yellow_shirt");
         blackPants = Resources.LoadAll<Sprite>("black_pants");
         jeansPants = Resources.LoadAll<Sprite>("blue_jeans");
-        hat = Resources.LoadAll<Sprite>("hat");
     }
 
     // Update is called once per frame
@@ -53,6 +51,8 @@ public class cloth_changer : MonoBehaviour
                     spriteRenderer.sprite = yellowShirt[2];
                 }
             }
+
+            current_sprite_clicked.enabled = false;
         }
         if (current_sprite_clicked.name == "black_pants")
         {
@@ -71,36 +71,32 @@ public class cloth_changer : MonoBehaviour
                     spriteRenderer.sprite = blackPants[2];
                 }
             }
+            current_sprite_clicked.enabled = false;
+
         }
-        /*
-        else if (current_sprite_clicked.name == "red_shirt")
-        {
-            foreach (Sprite sprite in player_children_sprites)
-            {
-                
-            }
-        }
+
+      
         else if (current_sprite_clicked.name == "jeans_pants")
         {
-            foreach (Sprite sprite in player_children_sprites)
+            foreach (SpriteRenderer spriteRenderer in player_children_sprites)
             {
+                if (spriteRenderer.name == "hips")
+                {
+                    spriteRenderer.sprite = jeansPants[0];
+                }
+                if (spriteRenderer.name == "left_leg")
+                {
+                    spriteRenderer.sprite = jeansPants[1];
+                }
+                if (spriteRenderer.name == "right_leg")
+                {
+                    spriteRenderer.sprite = jeansPants[2];
+                }
+                current_sprite_clicked.enabled = false;
 
             }
         }
-        else if (current_sprite_clicked.name == "black_pants")
-        {
-            foreach (Sprite sprite in player_children_sprites)
-            {
-
-            }
-        }
-        else if (current_sprite_clicked.name == "hat")
-        {
-            foreach (Sprite sprite in player_children_sprites)
-            {
-
-            }
-        }*/
+        
 
 
     }
