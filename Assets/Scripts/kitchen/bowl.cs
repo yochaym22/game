@@ -9,6 +9,7 @@ public class bowl : MonoBehaviour
     void OnMouseDown()
     {
         anim.SetTrigger("active_bowl");
+        anim.SetBool("bowl_on_table", true);
 
     }
     void Start()
