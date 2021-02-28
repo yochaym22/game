@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/bathroom_schene2.unity
-    guid: 666ffa0ba2295ba4ca44da2a9969f00c
+    path: Assets/Scenes/start_menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/bedroom_schene.unity
     guid: 693d8dc0e610c16489c1072ea8a3ab87
   - enabled: 1
-    path: Assets/Scenes/bustation.unity
-    guid: 629cc94b30af21f4a81367447e67f5c7
+    path: Assets/Scenes/bathroom_schene2.unity
+    guid: 666ffa0ba2295ba4ca44da2a9969f00c
   - enabled: 1
     path: Assets/Scenes/kitchen.unity
     guid: 3bb1aeff334ddd4499ff29086bb88b8a
@@ -24,8 +24,8 @@ EditorBuildSettings:
     path: Assets/Scenes/outside.unity
     guid: bf4d0298e17d25c48b60a6d75089b5f5
   - enabled: 1
-    path: Assets/Scenes/start_menu.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/bustation.unity
+    guid: 629cc94b30af21f4a81367447e67f5c7
   - enabled: 1
     path: Assets/Scenes/END.unity
     guid: c0fd3afb8c14f4e42ab1ef6bf79b1448

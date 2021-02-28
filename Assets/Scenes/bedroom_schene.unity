@@ -2493,7 +2493,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.0889387
+  orthographic size: 7.3487825
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4574,6 +4574,9 @@ MonoBehaviour:
   bowl: {fileID: 0}
   spone: {fileID: 0}
   cereal: {fileID: 0}
+  glasses: {fileID: 0}
+  food: {fileID: 0}
+  book: {fileID: 0}
 --- !u!65 &1852886798
 BoxCollider:
   m_ObjectHideFlags: 0
